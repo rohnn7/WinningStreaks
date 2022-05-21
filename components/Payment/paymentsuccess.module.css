@@ -1,0 +1,47 @@
+.notFoundContainer{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 155px;
+}
+.notFoundImageHolder{
+    text-align: center;
+    width: 100%;
+    font-size: 200px;
+    color: var(--color-bright-green);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notFoundDesContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.notFoundHead{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.notFoundDes{
+    font-size: 20px;
+}
+
+.button{
+    width: 200px;
+    padding: 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--color-dark-blue);
+    color: white;
+    font-size: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid var(--color-dark-blue);
+    color: var(--color-dark-blue);
+}

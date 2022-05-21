@@ -1,0 +1,212 @@
+.supportContainer{
+    margin-top: 200px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 155px;
+}
+
+.supportQuestions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.supportHeadContainer{
+    margin-bottom: 100px;
+}
+
+.supportAnswers{
+    width: 90%;
+    
+}
+
+.supportTypes{
+    width: 30%;
+    margin-right:10px ;
+    margin: 20px 20px;
+}
+
+.typeContainer{
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(229, 232, 236, 0.5);
+    margin-bottom: 10px;
+    font-size: 17px;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 3px solid var(--color-dark-blue);
+}
+
+.typeContainer.active{
+    padding: 20px;
+    width: 70%;
+    background-color: var(--color-dark-blue);
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 3px solid rgba(229, 232, 236, 1);
+}
+.typeContainer.active:hover{
+    background-color: rgba(37,123,222,0.1);
+    color: black;
+    border-left: 3px solid var(--color-dark-blue);
+    cursor: pointer;
+}
+
+.typeContainer:hover{
+    background-color: rgba(37,123,222,0.1);
+    cursor: pointer;
+}
+
+.supportHead{
+
+    text-align: center;
+}
+
+.queryHead{
+    text-align: left;
+
+    margin-right:10px ;
+    margin: 20px 20px;
+
+}
+.supportTypeHead{
+    width: 70%;
+}
+
+.supportHeadDes{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.supportAskContainer{
+    width: 97%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.supportAsk{
+    width: 90%;
+    border:solid 1px rgba(229, 232, 236, 1);
+    padding: 20px;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 19px;
+}
+
+.supportAsk::placeholder{
+    color: rgb(207, 213, 221);
+    font-style: italic;
+    font-size: 20px;
+}
+.supportButton{
+    padding: 20px 20px 20px 10px;
+    height: 64px;
+    width: 10%;
+    border: 1px solid var(--color-dark-blue);
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: var(--color-dark-blue);
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+.supportButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color:var(--color-dark-blue) ;
+}
+
+@media screen and (max-width:1200px) {
+
+    .supportAsk{
+        width: 80%;
+    }
+    .supportButton{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .supportContainer{
+        margin-top: 100px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .supportButton{
+        font-size: 15px;
+    }
+  
+}
+
+@media screen and (max-width:800px) {
+    .supportQuestions{
+        width: 100%;
+        display: block;
+    }
+    .supportTypes{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        margin: 20px 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .typeContainer{
+        padding: 20px;
+        width: 100%;
+
+    }
+    .supportAsk{
+        width: 70%;
+    }
+    .supportButton{
+        width: 30%;
+    }
+    .supportAnswers{
+        width: 97%;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .supportQuestions{
+        width: 100%;
+        display: block;
+    }
+    .supportTypes{
+        width: 0%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        margin: 20px 20px;
+
+    }
+
+    .typeContainer{
+        padding: 20px;
+        width: 60%;
+
+    }
+    .typeContainer.active{
+        width: 60%;
+    }
+
+    .supportHead{
+        font-size: 26px;
+    }
+
+    .supportHeadDes{
+        font-size: 14px;
+    }
+}

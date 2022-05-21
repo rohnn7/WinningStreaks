@@ -1,0 +1,300 @@
+.buyNowContainer{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 155px;
+}
+
+.buyNowHead{
+    text-align: center;
+}
+
+.buyNowSubHead{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.buyInput{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.buyNowSelector{
+    padding: 20px;
+    width: 150px;
+    font-size: 20px;
+    color: var(--color-darker-blue);
+    border-radius: 3px;
+    border-color: var(--color-dark-blue);
+}
+
+.buyNowDetail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyNowLabel{
+    display: flex;
+    font-size: 18px;
+}
+
+.detailDes{
+    font-weight: bold;
+    color: var(--color-dark-blue);
+    margin-right: 10px;
+}
+
+.detailValue{
+    letter-spacing: 3px;
+}
+
+.buyNowRecieptHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subHeadItems{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.headItem{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.subHeadItem{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.buyNowRecieptItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recieptItems{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    
+}
+
+.recieptTotalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyNowDisclaimer{
+    width: 60%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.totalContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.totalDes{
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: 5px;
+    color: var(--color-darker-blue);
+    align-items: center;
+}
+
+.totalAmount{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    
+}
+
+.taxContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taxDes{
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: 5px;
+    color: var(--color-darker-blue);
+    align-items: center;
+}
+
+.taxAmount{
+    margin: 5px;
+    color: var(--color-darker-blue);
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+.purchaseButtonContainer{
+
+    text-align: center;
+}
+
+.purchaseButton{
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+    height: 40px;
+    transform: translateY(-7px);
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: var(--color-dark-blue);
+    box-shadow: 1px 2px 10px var(--color-dark-blue);
+    transition: box-shadow ease-in 0.2s;
+    margin-top: 90px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.purchaseButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    box-shadow: 1px 2px 10px white;
+
+}
+
+.recieptNameContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.recieptTo{
+    
+    margin-right: 10px;
+}
+
+.recieptName{
+    letter-spacing: 3px;
+
+}
+
+.previousPlanDes{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.currentPlan{
+    text-align: center;
+}
+
+@media screen and (max-width:1050px){
+    .buyNowContainer{
+        width: 95%;
+    }
+
+    .totalAmount{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .buyNowContainer{
+        width: 95%;
+    }
+
+    .totalAmount{
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+
+    .buyInput{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .buyNowSelector{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .buyNowDetail{
+        display: block;
+    }
+
+    .buyNowLabel{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .buyNowRecieptHead{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .subHeadItems{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .headItem{
+        font-size: 14px;
+    }
+    .subHeadItem{
+        font-size: 14px;
+    }
+    .recieptItem{
+        font-size: 14px;
+    }
+    .subRecieptItem{
+        font-size: 14px;
+    }
+    .buyNowRecieptItem{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .recieptItems{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        
+    }
+    .recieptTotalContainer{
+        width: 99%;
+    }
+
+    .totalContainer{
+        width: 30%;
+    }
+    .totalDes{
+        font-size: 15px;
+        margin: 0;
+    }
+    .totalAmount{
+        font-size: 14px;
+        margin: 0;
+    }
+    .buyNowDisDes{
+        font-size: 14px;
+    }
+}

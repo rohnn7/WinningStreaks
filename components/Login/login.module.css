@@ -1,0 +1,335 @@
+.signupCard{
+    margin-top: 130px;
+    margin-bottom: 200px;
+    display: block;
+    width: 500px;
+    height:110%;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 1px var(--color-dark-blue);
+    box-shadow: 1px 2px 20px 5px rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.errorMessage{
+    color: var(--color-bright-red);
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    align-items: center;
+}
+.inputErrorMessage{
+    color: var(--color-bright-red);
+    text-align: left;
+    font-weight: bold;
+    margin-top: 2px;
+    width: 400px;
+    padding-left: 40px;
+    
+}
+
+.signupHead{
+    font-size: 32px;
+    text-align: center;
+    color: var(--color-darktheme-black);
+}
+
+.signupHolder{
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    margin-top: 50px;
+    align-items: center;    
+}
+
+.signupLabel{
+    color: var(--color-darktheme-black);
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.signupInput{
+    width:400px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 17px;
+    border: solid 1px var(--color-dark-blue);
+    background-color: #f9fcff;
+}
+.signupInput::placeholder{
+    color: var(--color-dark-blue);
+}
+
+.signupInput:focus{
+    border: none;
+}
+
+.signupInputMobile{
+    width:350px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 17px;
+    border: solid 1px var(--color-dark-blue);
+    border-left: none;
+    background-color: #f9fcff;
+}
+
+.signupInputMobile::placeholder{
+    color: var(--color-dark-blue);
+}
+
+
+.btnHolder{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.signupSubmit{
+    margin-top: 50px;
+    text-align: center; 
+    border:none;
+    border-radius: 3px;
+    width: 100px;
+    background-color: var(--color-dark-blue);
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    box-shadow: 1px 1px 5px var(--color-dark-blue);
+    margin-left: 5px;
+    margin-right:5px ;
+}
+
+.signupSelectMobile{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    border: solid 1px var(--color-dark-blue);
+    color: black;
+    background-color: #f9fcff;
+    border-right: none;
+    margin-right: -3px;
+    color: var(--color-dark-blue);
+}
+
+
+.signupSubmit:hover{
+    background-color: var(--color-darker-blue);
+    color: white;
+    cursor: pointer;
+}
+
+.signupSelect{
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    border: solid 1px var(--color-dark-blue);
+    background-color: #f9fcff;
+}
+
+.signupSelect::placeholder{
+    color: var(--color-dark-blue);   
+}
+
+
+.errorInput{
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 17px;
+    border: solid 1px var(--color-bright-red);
+    background-color: #f9fcff;
+}
+
+
+.errorInput::placeholder{
+    color: var(--color-bright-red);
+}
+
+.errorInput:focus{
+    border: none;
+}
+
+.errorInputMobile{
+    width: 350px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 17px;
+    border: solid 1px var(--color-bright-red);
+    border-left:none ;
+    background-color: #f9fcff;
+}
+
+.errorInputMobile::placeholder{
+    color: var(--color-bright-red);
+}
+
+.errorInputMobile:focus{
+    border: none;
+}
+
+.errorSelectMobile{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    border: solid 1px var(--color-bright-red);
+    background-color: #f9fcff;
+    border-right: none;
+    margin-right: -3px;
+    color: var(--color-bright-red);
+}
+
+.startBtn
+{
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+    height: 40px;
+    transform: translateY(-7px);
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: var(--color-dark-blue);
+    box-shadow: 1px 2px 10px var(--color-dark-blue);
+    transition: box-shadow ease-in 0.2s;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.startBtn:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    box-shadow: 1px 2px 10px white;
+}
+
+.signupSuccess{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.resendHolder{
+    width: 100%;
+    text-align: center;
+    color: var(--color-dark-blue);
+    text-decoration: underline;
+}
+
+.resend:hover{
+    cursor: pointer;
+}
+
+.errorInputOtp{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:550px){
+    .signupCard{
+        margin-top: 200px;
+        margin-bottom: 450px;
+        display: block;
+        width: 400px;
+        height:100%;
+        margin-left: auto;
+        margin-right: auto;
+        border:solid 1px var(--color-dark-blue);
+        box-shadow: 1px 2px 20px 5px rgb(226, 226, 226);
+        border-radius: 5px;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+
+    .signupHolder{
+        display:flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        align-items: center;    
+    }
+
+    .signupSubmit{
+        margin-top: 30px;
+        text-align: center; 
+        border:none;
+        border-radius: 3px;
+        width: 100px;
+        background-color: var(--color-dark-blue);
+        color: white;
+        padding: 10px;
+        font-size: 17px;
+        box-shadow: 1px 1px 5px var(--color-dark-blue);
+    }
+
+    
+    .inputErrorMessage{
+        color: var(--color-bright-red);
+        text-align: left;
+        font-weight: bold;
+        margin-top: 2px;
+        padding-left: 5px;
+        font-size: 14px;
+        width: 100%;
+        
+    }
+    
+}
+
+@media screen and (max-width:400px){
+    .signupCard{
+        margin-top: 200px;
+        margin-bottom: 450px;
+        display: block;
+        width: 300px;
+        height:100%;
+        margin-left: auto;
+        margin-right: auto;
+        border:solid 1px var(--color-dark-blue);
+        box-shadow: 1px 2px 20px 5px rgb(226, 226, 226);
+        border-radius: 5px;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+
+    .signupInputMobile{
+        width:210px;
+    }
+
+    
+
+    .errorInputMobile{
+        width:210px;
+    }
+
+    
+}

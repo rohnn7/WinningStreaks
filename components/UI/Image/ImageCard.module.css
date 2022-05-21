@@ -1,0 +1,17 @@
+.ImageCard{
+    padding: 20px;
+}
+
+.preview{
+    padding-bottom: 7px;
+    height: 250px;
+    width: 250px;
+}
+
+.url{
+    padding-right: 50px;
+    background: -webkit-linear-gradient(#00c4cc, #007ffd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10px;
+}

@@ -1,0 +1,44 @@
+.iconCardContainer{
+    width: 270px;
+}
+
+.iconCardIcon{
+    font-size: 35px;
+    color: var(--color-dark-blue);
+}
+
+.iconCardHead{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+@media  screen and (max-width:1000px) {
+    .iconCardContainer{
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .iconCardContainer{
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .iconCardIcon{
+        font-size: 27px;
+        /* color: var(--color-dark-blue); */
+    }
+    .iconCardHead{
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .iconCardPara{
+        font-size: 15px;
+    }
+}

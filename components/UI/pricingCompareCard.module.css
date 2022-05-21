@@ -1,0 +1,63 @@
+.priceCardPlanCompare{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.priceCardPlanComapareHead{
+    width: 20%;
+    font-size: 16px;
+    color: var(--color-dark-blue);
+}
+
+.priceCardPlanComapareHead:hover{
+    cursor: pointer;
+    color: var(--color-darker-blue);
+}
+
+.priceCardPlanCompareNav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.priceCardPlan{
+    font-size: 18px;
+}
+
+.compareCross{
+    font-weight: bold;
+    color: var(--color-bright-red);
+}
+
+.compareCheck{
+    font-weight: bold;
+    color: var(--color-bright-green);
+}
+
+@media  screen and (max-width:700px) {
+    .priceCardPlanCompare{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+
+    .priceCardPlanComapareHead{
+        width: 100%;
+        text-align: center;
+    }
+
+    .priceCardPlanCompareNav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+}

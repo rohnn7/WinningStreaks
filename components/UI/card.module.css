@@ -1,0 +1,107 @@
+.cardContainer
+{
+    display: block;
+    width: 377px;
+    margin-left:  15px;
+    margin-right: 15px;
+    text-align: left;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+
+
+.cardHeading
+{
+    font-size:26px;
+    color: var(--color-light-grey);
+}
+
+.cardPara
+{
+    font-size: 17px;
+}
+
+@media  screen and (max-width:1500px){
+    .cardContainer
+    {
+        width: 340px;
+        margin-left:  -5px;
+        margin-right: -5px;
+    }
+}
+
+@media  screen and (max-width:1200px){
+    .cardContainer
+    {
+        width: 311px;
+        margin-left:  -5px;
+        margin-right: -5px;
+    }
+
+    .cardHeading
+    {
+        font-size: 25px;
+    }
+
+}
+
+@media  screen and (max-width:900px){
+    .cardContainer
+    {
+        width: 400px;
+        margin-left:  auto;
+        margin-right: auto;
+    }  
+    .cardHeading
+    {
+        font-size: 25px;
+    }  
+    .cardPara
+    {
+        font-size: 17px;
+    }
+
+}
+
+@media  screen and (max-width:800px){
+    .cardContainer
+    {
+        width: 380px;
+        margin-left:  auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    .cardHeading
+    {
+        font-size: 20px;
+    }  
+    .cardPara
+    {
+        font-size: 15px;
+    }
+    
+
+}
+
+@media  screen and (max-width:500px){
+    .cardContainer
+    {
+        width: 340px;
+        margin-left:  auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    .cardHeading
+    {
+        font-size: 22px;
+    }  
+    .cardPara
+    {
+        font-size: 13px;
+    }
+
+}

@@ -1,0 +1,50 @@
+html,
+body {
+
+  --color-bright-green:#34FF81;
+  --color-light-blue: #48FFFF;
+  --color-dark-blue: #257BDE;
+  --color-darker-blue: #5271ff;
+  --color-purple: #9058FF;
+  --color-google-yellow: #FF9D0D;
+  --color-bright-red: #FF503E;
+  --color-darktheme-black: #26282c;
+  --color-light-grey: #9d9285; 
+  --color-pink-red:#FF6384;
+
+  padding: 0;
+  margin: 0;
+  
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/*#303338;*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+*:focus{
+  border:none
+}
+
+/*
+  green - #34FF81
+  light blue - #48FFFF
+  red - #FF503E
+  better blue - #58CDFF
+  purple - #9058FF
+  google analytics yellow - #FF9D0D
+  dark theme light black - #1e252a
+  dark theme dark black - #1e252a
+  dark blue - #257BDE
+  darker blue - #5271ff
+  pinkish red - #FF6384
+*/

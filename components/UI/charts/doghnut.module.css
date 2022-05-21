@@ -1,0 +1,44 @@
+.dougnutChartContainer{
+    width: 550px;
+    padding: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dougnutChartDes{
+    font-size: 32px;
+    align-items: center;
+    color: var(--color-dark-blue);
+}
+
+@media screen and (max-width:1000px) {
+    .dougnutChartContainer{
+        width: 70%;
+    }
+
+    .dougnutChartDes{
+        font-size: 32px;
+        align-items: center;
+        color: var(--color-dark-blue);
+    }
+           
+}
+
+@media screen and (max-width:650px) {
+    .dougnutChartContainer{
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dougnutChartDes{
+        font-size: 24px;
+    }
+    .dougnutChartHead{
+        font-size: 24px;
+    }
+           
+}

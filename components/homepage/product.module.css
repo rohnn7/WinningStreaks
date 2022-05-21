@@ -1,0 +1,49 @@
+.productDetailContainer{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productDes{
+    width:35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productImageHolder{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.productImage{
+    box-shadow: 2px 3px 4px black;
+}
+
+.linkText{
+    color: var(--color-dark-blue);
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .productDes{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+@media screen and (max-width:700px){
+    .productDes{
+        font-size: 14px;
+    }
+}
+
+
+

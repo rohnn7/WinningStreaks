@@ -1,0 +1,238 @@
+.pricingContainer{
+    width: 66.18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 155px;
+}
+
+.pricingCardHolder{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.featuresList{
+    margin: 0;
+    list-style-type: circle;
+    list-style-position: initial;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.featuresPoint{
+    margin-bottom: 10px;
+}
+
+/* Compare Plan */
+
+.pricePlanCompare{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pricePlanComapareHead{
+    width: 20%;
+    font-size: 30px;
+}
+
+.pricePlanCompareNav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.compareHead{
+    align-items: center;
+}
+
+.compareDeck{
+    width: 90%;
+    text-align: center;
+    background-color: rgb(247, 242, 242);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.compareDes{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+
+
+.pricingQuery{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.queryDes{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.query{
+    border-radius: 5px;
+    padding: 5px;
+    width: 140px;
+    height: 40px;
+    transform: translateY(-7px);
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: var(--color-dark-blue);
+    box-shadow: 1px 2px 10px var(--color-dark-blue);
+    transition: box-shadow ease-in 0.2s;
+    margin-top: 30px
+}
+
+.query:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    box-shadow: 1px 2px 10px white; 
+}
+
+.dataTableDropAccordion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordionButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85.65%;
+    border-left: 1px solid rgb(230, 230, 230);
+    padding: 15px;
+    font-size: 24px;
+    border-right: 1px solid rgb(230, 230, 230);
+    border-top: none;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background: white;
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+}
+
+.accordionButton::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+    color: var(--color-dark-blue);
+}
+
+.accordionButtonActive{
+    background-color: white;;
+}
+
+.accordionButtonActive::after{
+    content: '\25b4';
+}
+
+.accordionContent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94.3%;
+    overflow: hidden;
+    max-height: 0;
+    padding: 15px;
+    background-color: white;
+}
+
+.accordionContentActive{
+    max-height: 100%;
+    transition: max-height 1s ease-in;
+}
+
+.link{
+    color: var(--color-dark-blue);
+    font-weight: bold;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: var(--color-darker-blue);
+}
+
+@media  screen and (max-width:1550px) {
+    .accordionButton{
+        width: 100%;
+    }
+    .accordionContent{
+        width: 100%
+    }
+}
+
+@media  screen and (max-width:1100px) {
+    .pricingCardHolder{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    
+}
+
+@media  screen and (max-width:1000px) {
+    .compareDeck{
+        margin-left: 20px;
+    }
+    
+}
+
+@media  screen and (max-width:700px) {
+    .pricePlanCompare{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+
+    .pricePlanComapareHead{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .pricePlanCompareNav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .compareDeck{
+        margin-left: 0px;
+    }
+    .queryDes{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media  screen and (max-width:450px) {
+    .pricingContainer{
+        width: 100%;
+        
+    }
+}
+

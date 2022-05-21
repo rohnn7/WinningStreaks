@@ -1,0 +1,138 @@
+.landingPageContainer
+{
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.heading
+{
+    
+    margin-top: -60px;
+    font-size: 44px;
+    
+}
+
+
+
+.landingImage
+{
+    z-index: 0;
+    display: block;
+    position: fixed;
+}
+
+.landingPara
+{
+    
+    margin-top: -25px;
+    font-size: 22px;
+}
+
+.startBtn
+{
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+    height: 40px;
+    transform: translateY(-7px);
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: var(--color-dark-blue);
+    box-shadow: 1px 2px 10px var(--color-dark-blue);
+    transition: box-shadow ease-in 0.2s;
+    margin-top: 30px;
+}
+
+.startBtn:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    box-shadow: 1px 2px 10px white;
+}
+
+@media screen and (max-width:1100px)
+{
+   .heading{
+        margin-top: -60px;
+        font-size: 42px;
+    }
+
+   .landingPara{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+
+   .startBtn{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1100px)
+{
+   .heading{
+        margin-top: -60px;
+        font-size: 42px;
+    }
+
+   .landingPara{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+
+   .startBtn{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+   .heading{
+        margin-top: -40px;
+        font-size: 38px;
+    }
+
+   .landingPara{
+        margin-top: -15px;
+        font-size: 17px;
+    }
+
+   .startBtn{
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:550px)
+{
+   .heading{
+        margin-top: -20px;
+        font-size: 26px;
+    }
+
+   .landingPara{
+        margin-top: -5px;
+        font-size: 14px;
+    }
+
+   .startBtn{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}

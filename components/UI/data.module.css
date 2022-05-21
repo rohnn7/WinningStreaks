@@ -1,0 +1,83 @@
+.dataListContainer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 2px;
+}
+
+
+.dataTable{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+}
+
+
+.Content{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.dataContent{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.imageContainer{
+    margin-right: 70px;
+}
+
+.contentHolder{
+    margin-left: 70px;
+}
+
+.contentHolder .link{
+    color: var(--color-dark-blue);
+    font-weight: bold;
+}
+
+.contentHolder .link:hover{
+    color: var(--color-darker-blue);
+}
+
+@media  screen and (max-width:1400px){
+    .Content{
+        margin-right: 0px;
+        margin-bottom: 5px;
+        font-size: 23px;
+        
+    }
+    
+    .dataContent{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .imageContainer{
+        margin-right: 20px;
+    }
+    
+    .contentHolder{
+        margin-left: 20px;
+    }
+}
+@media  screen and (max-width:1400px){
+    .dataTable{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-bottom: 1px solid ;
+    }
+
+    .contentHolder{
+        text-align: center;
+    }
+}

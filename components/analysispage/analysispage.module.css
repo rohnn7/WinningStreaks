@@ -1,0 +1,177 @@
+.analysisContainer{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 155px;
+}
+
+.analysisHead{
+    text-align: center;
+}
+
+.analysisHeadDes{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.analysisNavContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.analysisDetail{
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
+    border:1px solid var(--color-dark-blue);
+    /* border-top: none; */
+    /* border-left: none; */
+    border-right: none;
+    border-radius: 5px 0px 0px 0px;
+}
+.analysisDetail:hover{
+    cursor: pointer;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+
+.analysisCompare{
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
+    border:1px solid var(--color-dark-blue);
+    /* border-bottom: none; */
+    border-radius: 0px 0px 0px 0px;
+}
+.analysisCompare:hover{
+    cursor: pointer;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+.analysisPersonal{
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
+    border:1px solid var(--color-dark-blue);
+    /* border-top: none; */
+    border-left: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+
+.analysisPersonal:hover{
+    cursor: pointer;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+
+.analysisTrend{
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
+    border:1px solid var(--color-dark-blue);
+    /* border-bottom: none; */
+    border-left: none;
+    /* border-right: none; */
+    border-radius: 0px 5px 0px 0px;
+}
+
+.analysisTrend:hover{
+    cursor: pointer;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+
+
+.active{
+    cursor: pointer;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+
+.radioContainer{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radioLabel{
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:1500px) {
+    .analysisContainer{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:1000px) {
+    .analysisContainer{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:800px){
+    .analysisHeadDes{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .radioContainer{
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .radio{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .analysisContainer{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .analysisNavContainer{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .analysisDetail{
+        border-radius: 5px 5px 0px 0px;
+        border-bottom:none ;
+        border-right: solid 1px var(--color-dark-blue);
+    }
+
+    .analysisPersonal{
+        border-bottom: none;
+        border-top: none;
+        border-left: solid 1px var(--color-dark-blue);
+    }
+    .analysisTrend{
+        border-radius: 0px 0px 5px 5px;
+        border-left: solid 1px var(--color-dark-blue);
+    }
+    .analysisHeadDes{
+        font-size: 14px;
+
+    }
+
+}

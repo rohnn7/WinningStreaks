@@ -1,0 +1,322 @@
+.aboutContainer{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    margin-bottom: 155px;
+}
+
+.aboutHead{
+    color: var(--color-dark-blue);
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-align: center;
+   
+}
+
+.aboutSubHead{
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutPara{
+    
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.aboutIconHolders{
+    display: flex;
+    justify-content: space-evenly;
+    width:1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.aboutIconHolder{
+    display: flex;
+    justify-content: space-evenly;
+    width: 230px;
+    height: 100%;
+    position: relative;
+}
+
+.aboutIconHead{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.aboutIcon{
+    font-size: 50px;
+    margin-right: 6px;
+    color: var(--color-dark-blue);
+}
+
+.aboutIconPara{
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.aboutHistoryContainer{
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutHistoryParaContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutHistoryPara{
+    width: 400px;
+}
+
+.aboutLink{
+    color: var(--color-dark-blue);
+}
+
+.aboutValues{
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutValuesCards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:1000px) {
+    
+    .aboutSubHead{
+        font-size: 26px;
+        width: 800px;
+    }
+
+    .aboutIconHolders{
+        display: block;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .aboutIconHolder{
+        display: flex;
+        justify-content: space-evenly;
+        width: 230px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutHistoryContainer{
+        margin-top: 150px;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutHistoryPara{
+        width: 300px;
+        font-size: 15px;
+    }
+    
+    .aboutValuesCards{
+        display:block;
+       
+    }
+
+    .aboutValues{
+        width: 800px;
+        
+    }
+}
+
+@media screen and (max-width:850px) {
+    
+    .aboutSubHead{
+        font-size: 23px;
+        width: 600px;
+    }
+
+    .aboutPara{
+        font-size: 15px;
+        width: 400px;
+    }
+
+    
+    .aboutIconHolder{
+        width: 230px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    
+    .aboutIconHead{
+        font-size: 20px;
+    }
+
+    .aboutIconPara{
+        font-size: 15px;
+    }
+
+    .aboutHistoryContainer{
+        margin-top: 150px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutHistoryParaContainer{
+        display: block;
+    }
+
+    .aboutHistoryPara{
+        width: 400px;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .aboutValuesCards{
+        display:block;
+       
+    }
+
+    .aboutValues{
+        width: 600px;
+        
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .aboutSubHead{
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .aboutPara{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    
+    .aboutIconHolder{
+        width: 230px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    
+    .aboutIconHead{
+        font-size: 18px;
+    }
+
+    .aboutIconPara{
+        font-size: 14px;
+    }
+
+    .aboutHistoryContainer{
+        margin-top: 150px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutHistoryParaContainer{
+        display: block;
+    }
+
+    .aboutHistoryPara{
+        width: 300px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .aboutValuesCards{
+        display:block;
+       
+    }
+
+    .aboutValues{
+        width: 400px;
+        
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    .aboutSubHead{
+        font-size:  18px;
+        width:250px;
+    }
+
+    .aboutPara{
+        font-size: 14px;
+        
+        width: 200px;
+    }
+
+    
+    .aboutIconHolder{
+        width: 230px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    
+    .aboutIconHead{
+        font-size: 16px;
+    }
+
+    .aboutIconPara{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .aboutHistoryContainer{
+        margin-top: 150px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutHistoryParaContainer{
+        display: block;
+    }
+
+    .aboutHistoryPara{
+        width: 280px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .aboutValuesCards{
+        display:block;
+       
+    }
+
+    .aboutValues{
+        width: 300px;
+        
+    }
+}

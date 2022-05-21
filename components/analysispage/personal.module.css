@@ -1,0 +1,111 @@
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.selectTicker{
+    margin-left: 16px;
+    width: 150px;
+    padding: 10px;
+    height: 100%;
+    border-radius: 3px;
+    font-size: 17px;
+    border:solid 1px var(--color-dark-blue);
+}
+
+.selectDes{
+    color: var(--color-dark-blue);
+}
+
+.personalNavContainer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputContainer{
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+    color: var(--color-dark-blue);
+    margin-left: 10px;
+
+    width: 100%;
+}
+
+.inputBar{
+    width: 200px;
+    padding: 16px;
+    font-size: 17px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 3px;
+    border:solid 1px var(--color-dark-blue);
+}
+
+.Message{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    text-align: center;
+    color: var(--color-dark-blue);
+}
+
+.personalPageDoughnutContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width:1050px) {
+    .personalNavContainer{
+        display: block;
+    }
+    .selectDes{
+        width: 20%;
+        text-align: right;
+    }
+    .selectContainer{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .inputContainer{
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .selectTicker{
+        width: 50%;
+    }
+    .inputBar{
+        width: 50%;
+    }
+
+    .labelDes{
+        width: 20%;
+        text-align: right;
+    }
+
+    .personalPageDoughnutContainer{
+        display: block;
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,102 @@
+.compareNavContainer{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.compareCounterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.counterIcon{
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.counterIcon:hover{
+    cursor: pointer;
+    color: var(--color-dark-blue);
+}
+
+.compareCounter{
+    font-size: 25px;
+}
+
+.compareCounterDes{
+    font-size: 17px;
+    color: var(--color-dark-blue);
+    margin-right: 10px;
+}
+
+.selectTicker{
+    margin-left: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 17px;
+    border:solid 1px var(--color-dark-blue);
+}
+
+.compareDoghnutContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.graphContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.graphHolder{
+    width: 50%;
+}
+
+.graphHolder{
+    font-size: 12px;
+}
+
+.compareDoghnutContainerSigle{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width:1050px) {
+    .compareDoghnutContainer{
+        display: block;
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    .graphContainer{
+        display: block;
+    }
+
+    .graphHolder{
+        width: 100%;
+    }
+    .compareNavContainer{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .selectTicker{
+        margin-left: 6vw;
+        margin-top: 10px;
+    }
+}

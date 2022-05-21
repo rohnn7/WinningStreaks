@@ -1,0 +1,416 @@
+.footerContainer{
+    background-color: rgb(248, 248, 248);
+    border-top:0.5px solid rgb(231, 229, 228);
+    padding: 70px;
+}
+
+.footerContactUs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.footerContactUsItem{
+    width: 50%;
+
+}
+
+.footerIconHolder{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.icon{
+    color: var(--color-dark-blue);
+    margin-right: 20px;
+}
+
+.contactDes{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contactDetail{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.contactDetailPro{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: var(--color-dark-blue);
+}
+
+
+.companyName{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--color-dark-blue);
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footerContentItem1{
+    width: 17%;
+}
+
+.contentItemHead{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: var(--color-dark-blue);
+    font-weight: normal;
+}
+
+.footerIconHolderConent{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.socialIcons{
+    color: rgba(80 , 92, 98, 1);
+}
+
+.socialIcons:hover{
+    cursor: pointer;
+    color: var(--color-darker-blue);
+}
+
+.plan{
+    color: rgba(80 , 92, 98, 1);
+    font-size: 16px;
+}
+
+.plan:hover{
+    cursor: pointer;
+    color: var(--color-darker-blue);
+}
+
+.pricingQuery{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.queryDes{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.query{
+    border-radius: 5px;
+    padding: 5px;
+    width: 140px;
+    height: 40px;
+    transform: translateY(-7px);
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: var(--color-dark-blue);
+    box-shadow: 1px 2px 10px var(--color-dark-blue);
+    transition: box-shadow ease-in 0.2s;
+    margin-top: 30px
+}
+
+.query:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    box-shadow: 1px 2px 10px white; 
+}
+
+@media screen and (max-width:1150px) {
+    .footerContainer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footerContactUs{
+        width: 100%;
+ 
+    }
+
+    .footerContent{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .footerContainer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footerContactUs{
+        width: 700px;
+        display: block;
+        margin-left: 30px;
+    }
+
+    .footerContent{
+        width: 100%;
+        padding-left: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerContactUsItem{
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .footerIconHolder{
+        transform: translateX(-80px);
+    }
+
+    .socialIcons{
+        margin-right: 20px;
+    }
+    .contactDes{
+        text-align: left;
+    }
+    .contactDetail{
+        text-align: left;
+    }
+
+    .contactDetailPro{
+        text-align: left;
+    }
+
+    .companyName{
+        text-align: left;
+        margin-left: 0;
+    }
+    .contentItemHead{
+        margin-left: 30px;
+    }
+    .plan{
+        margin-left: 30px;
+    }
+    .footerIconHolderConent{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footerContainer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footerContactUs{
+        width: 80%;
+        padding-left: 30px;
+        display: block;
+        margin-left: 30px;
+    }
+
+    .footerContent{
+        width: 80%;
+        padding-left: 30px;
+        display: block;
+        margin-left: 0;
+    }
+
+    .footerContactUsItem{
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .footerIconHolder{
+        margin-left: 90px;
+    }
+    .icon{
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .socialIcons{
+        margin-right: 20px;
+    }
+    .contactDes{
+        width: 450px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .contactDetail{
+        text-align: left;
+    }
+
+    .contactDetailPro{
+        text-align: left;
+    }
+
+    .companyName{
+        text-align: left;
+        margin-left: 0;
+        width: 400px;
+    }
+    .contentItemHead{
+        margin-left: 30px;
+    }
+    .plan{
+        margin-left: 30px;
+    }
+    .footerIconHolderConent{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footerContainer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footerContactUs{
+        width: 80%;
+        padding-left: 30px;
+        display: block;
+        margin-left: 30px;
+    }
+
+    .footerContent{
+        width: 80%;
+        padding-left: 30px;
+        display: block;
+        margin-left: 0;
+    }
+
+    .footerContactUsItem{
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footerIconHolder{
+        margin-left: 90px;
+    }
+    .icon{
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .socialIcons{
+        margin-right: 20px;
+    }
+    .contactDes{
+        width: 450px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .contactDetail{
+        text-align: left;
+    }
+
+    .contactDetailPro{
+        text-align: left;
+    }
+
+    .companyName{
+        text-align: left;
+        margin-left: 0;
+        width: 100%;
+    }
+    .contentItemHead{
+        margin-left: 30px;
+    }
+    .plan{
+        margin-left: 30px;
+    }
+    .footerIconHolderConent{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footerContainer{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .footerContactUs{
+        width: 80%;
+        padding-left: 30px;
+        display: block;
+        margin-left: 30px;
+    }
+
+    .footerContent{
+        width: 80%;
+        padding-left: 30px;
+        display: block;
+        margin-left: 0;
+    }
+
+    .footerContactUsItem{
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footerIconHolder{
+        margin-left: 90px;
+    }
+    .icon{
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .socialIcons{
+        margin-right: 20px;
+    }
+    .contactDes{
+        width: 450px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .contactDetail{
+        text-align: left;
+    }
+
+    .contactDetailPro{
+        text-align: left;
+    }
+
+    .companyName{
+        text-align: left;
+        margin-left: 0;
+        font-size: 27px;
+        width: 100%;
+    }
+    .contentItemHead{
+        margin-left: 30px;
+    }
+    .plan{
+        margin-left: 30px;
+    }
+    .footerIconHolderConent{
+        margin-left: 30px;
+    }
+}

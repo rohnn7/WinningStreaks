@@ -1,0 +1,201 @@
+.priceCardContainer{
+    width:360px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 2px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.priceCardHead{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.priceCardSubHead{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.priceCardPriceContainer{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.priceCardPrice{
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    height: 77px;
+}
+
+.currency{
+    font-size: 30px;
+    margin-top: 11px;
+}
+
+.priceCardRate{
+    height: 100%;
+    margin: 0;
+    margin-top: 40px;
+    font-size: 13px;
+    color: var(--color-dark-blue);
+}
+
+.priceCardBtnContainer{
+    width: 100%;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.priceCardButton{
+    width:   15.625vw;
+    height: 48px;
+    background-color: var(--color-dark-blue);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.priceCardButton:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid var(--color-dark-blue);
+    color: var(--color-dark-blue);
+}
+
+.priceCardFeatures{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+@media  screen and (max-width:1100px) {
+    .priceCardContainer{
+        width:100%;
+        display: block;
+    }
+
+    .priceCardButton{
+        width: 300px;
+        
+    }
+    .priceCardFeatures{
+        text-align: center;
+    }
+    .priceCardFeaturesPoint{
+        
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media  screen and (max-width:600px) {
+
+    .priceCardFeatures{
+        text-align: left;
+    }
+    
+    .priceCardButton{
+        width: 250px;
+        
+    }
+
+    .priceCardFeaturesPoint{
+        
+        display: block;
+        text-align: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .priceCardHead{
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    .priceCardSubHead{
+        
+        font-size: 13px;
+        
+    }
+    .priceCardPrice{
+        font-size: 52px;
+    }
+
+    .priceCardRate{
+    
+        margin-top: 35px;
+       
+    }
+    .priceCardPriceContainer{
+        height: 74px;
+    }
+
+    .priceCardFeatures{
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width:450px) {
+    .priceCardContainer{
+        width:100%;
+    }
+
+    .priceCardFeatures{
+        text-align: left;
+    }
+    
+    .priceCardButton{
+        width: 300px;
+        
+    }
+
+    .priceCardFeaturesPoint{
+        
+        display: block;
+        text-align: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .priceCardHead{
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    .priceCardSubHead{
+        
+        font-size: 13px;
+        
+    }
+    .priceCardPrice{
+        font-size: 52px;
+    }
+
+    .priceCardRate{
+    
+        margin-top: 35px;
+       
+    }
+    .priceCardPriceContainer{
+        height: 74px;
+    }
+
+    .priceCardFeatures{
+        font-size: 15px;
+    }
+}

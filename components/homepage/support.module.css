@@ -1,0 +1,111 @@
+.supportContainer
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 155px;
+}
+
+.supportTextMobile{
+    display: none;
+    width: 600px;
+    margin-left: 170px;
+}
+
+.supportText{
+    width: 600px;
+    margin-left: 170px;
+}
+
+
+.supportLink{
+    color: var(--color-dark-blue);
+    font-weight: bold;
+}
+
+@media  screen and (max-width:1500px){
+
+    .supportText{
+        width:500px;
+        margin-right:-90px ;
+    }
+
+    .supportTextMobile{
+        width:500px;
+        margin-right:-90px ;
+    }
+}
+
+
+@media  screen and (max-width:1300px){
+
+    .supportText{
+        width:700px;
+        margin-left: 120px;
+    }
+
+    .supportTextMobile{
+        width:700px;
+        margin-left: 120px;
+    }
+}
+
+@media  screen and (max-width:900px){
+
+    .supportText{
+        display: none;
+    }
+
+    .supportTextMobile{
+        display: block;
+        width: 70%;
+    }
+
+    .supportContainer{
+        display: block;
+    }
+
+    .supportHead{
+        font-size: 25px;
+    }
+
+    .supportPara{
+        font-size: 14px;
+    }
+}
+
+@media  screen and (max-width:600px){
+
+
+    .supportTextMobile{
+        display: block;
+        width: 70%;
+        margin-left: 70px;
+    }
+
+   
+}
+
+@media  screen and (max-width:500px){
+
+
+    .supportTextMobile{
+        display: block;
+        width: 80%;
+        margin-left: 40px;
+    }
+
+   
+}
+
+@media  screen and (max-width:300px){
+
+
+    .supportTextMobile{
+        display: block;
+        width: 0px;
+    }
+
+   
+}

@@ -1,0 +1,118 @@
+
+.faqCardContainer{
+    position: relative;
+    margin: 20px 20px;
+    box-shadow: 0rem 2px 0.5rem rgb(241, 241, 241);
+}
+
+.faqCardContainer .label{
+    position: relative;
+    padding: 20px 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    box-shadow: 0rem 2px 0.5rem rgb(241, 241, 241);
+    transition: box-shadow 100ms ease-in;
+    cursor: pointer;
+}
+
+
+.faqCardContainer .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 26px;
+}
+
+.faqCardContainer.active .label::before{
+    content: '-';
+}
+
+.faqCardContainer .label:hover{
+    color: var(--color-dark-blue);
+    box-shadow: 0rem 2px 0.5rem rgba(0,0,0,0.1);
+}
+
+
+.faqCardContainer .content{
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px 0px 5px 5px;
+    background-color:rgb(241, 241, 241);
+    font-size: 1.4rem;
+    transition: height 0s;
+    
+}
+
+.faqCardContainer .content::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: var(--color-dark-blue);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.faqCardContainer .content p{
+    font-size: 14px;
+    padding: 2rem;
+    margin-top: 0;
+}
+
+.faqCardContainer.active .content{
+    height: 100%;
+}
+
+@media screen and (max-width:1200px) {
+    .faqCardContainer .label{
+        position: relative;
+        padding: 20px 10px;
+        border-radius: 3px;
+        font-size: 16px;
+        /* font-weight: bold; */
+        box-shadow: 0rem 2px 0.5rem rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .faqCardContainer .label{
+        position: relative;
+        padding: 20px 10px;
+        border-radius: 3px;
+        font-size: 16px;
+        /* font-weight: bold; */
+        box-shadow: 0rem 2px 0.5rem rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .faqCardContainer .label{
+        position: relative;
+        padding: 20px 10px;
+        border-radius: 3px;
+        font-size: 14px;
+        /* font-weight: bold; */
+        box-shadow: 0rem 2px 0.5rem rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .faqCardContainer .label{
+        position: relative;
+        padding: 20px 10px;
+        border-radius: 3px;
+        font-size: 17px;
+        /* font-weight: bold; */
+        box-shadow: 0rem 2px 0.5rem rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "winningstreaks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^29.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@rohnn/ckeditor5-custom-build-classic-imageresize": "^0.1.0",
+    "axios": "^0.21.1",
+    "chart.js": "^3.4.1",
+    "ckeditor": "^4.12.1",
+    "forever": "^4.0.1",
+    "forever-monitor": "^3.0.3",
+    "html-react-parser": "^1.2.7",
+    "moment": "^2.29.1",
+    "next": "11.0.1",
+    "next-images": "^1.8.1",
+    "next-redux-wrapper": "^7.0.2",
+    "react": "17.0.2",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-otp-input": "^2.4.0",
+    "react-otp-timer": "^0.1.0",
+    "react-redux": "^7.2.4",
+    "react-test-renderer": "^18.0.0-alpha-bdd6d5064-20211001",
+    "react-useanimations": "^2.0.6",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "url-slug": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-next": "11.0.1"
+  }
+}
